@@ -13,19 +13,24 @@
     <fieldset>
         <legend>Choose your favorite monster</legend>
     
-        <input type="text" id="inputKey" placeholder="Enter a key..." />
+        <input type="text" id="input-key" placeholder="Enter a key..." />
         <label for="inputKey">Key</label><br/>
     
-        <input type="text" id="inputValue" placeholder="Enter a value..." />
+        <input type="text" id="input-value" placeholder="Enter a value..." />
         <label for="inputValue">Value</label><br/>
 
-        <button class="submit-btn">Submit Data</button>
+        <button class="submit-btn" id="submit-btn">Submit Data</button>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="output-container">
         <legend>Local storage</legend>
-        <div class="lsOutput"></div>
+        <div class="ls-output" id="ls-output"></div>
+        <button id="clear-btn">Clear Data</button>
     </fieldset>
+
+   
+        
+    
     
 
 
