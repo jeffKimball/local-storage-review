@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+fieldset {
+  margin: 30px 0;
+  min-width: 500px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+legend {
+  font-size: 26px;
+  background: #e3e3e3;
+  padding: 5px;
+}
+
+input {
+  height: 20px;
+  margin: 10px;
+}
+
+.submit-btn {
+  margin: 10px;
+  padding: 5px 15px;
+}
